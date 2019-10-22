@@ -4,8 +4,8 @@
 //#include "croissant.c"
 //#include "operations.c"
 //#include "equation.c"
-#include "volee.c"
+#include "premiers.c"
 
 int main() {
-
+    calculPremiers(saisiePremiers());
 }
