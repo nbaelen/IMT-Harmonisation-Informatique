@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/baelen/Desktop/IMT/main.c
-parfait.c
-/Users/baelen/Desktop/IMT/parfait.c
-
-/Users/baelen/Desktop/IMT/parfait.c
+/Users/baelen/Desktop/IMT/cube.c
 stdio.h
 /Users/baelen/Desktop/IMT/stdio.h
+math.h
+/Users/baelen/Desktop/IMT/math.h
+
+/Users/baelen/Desktop/IMT/main.c
+cube.c
+/Users/baelen/Desktop/IMT/cube.c
 

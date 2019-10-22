@@ -1,5 +1,5 @@
-#include "parfait.c"
+#include "cube.c"
 
 int main() {
-    parfait(28);
+    cube(371);
 }

@@ -9,9 +9,9 @@ void parfait(int number) {
     for (int i = 1; i < number; ++i)
         if ((number % i) == 0) somme += i;
     if (somme == number)
-        printf("Le nombre %d est un nombre parfait", number);
+        printf("Le nombre %d est un nombre parfait\n", number);
     else
-        printf("Le nombre %d n'est pas un nombre parfait", number);
+        printf("Le nombre %d n'est pas un nombre parfait\n", number);
 }
 
 

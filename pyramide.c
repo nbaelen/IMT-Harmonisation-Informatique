@@ -30,11 +30,6 @@ void pyramide() {
             j--;
         }
 
-        //espaces de fin
-        for (int k = 0; k < size - i; ++k) {
-            printf("  ");
-        }
-
         //retour chariot
         printf("\n");
         i++;
