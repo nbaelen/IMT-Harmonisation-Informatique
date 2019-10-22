@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/baelen/Desktop/IMT/equation.c
+stdio.h
+/Users/baelen/Desktop/IMT/stdio.h
+math.h
+/Users/baelen/Desktop/IMT/math.h
+
+/Users/baelen/Desktop/IMT/main.c
+equation.c
+/Users/baelen/Desktop/IMT/equation.c
+
