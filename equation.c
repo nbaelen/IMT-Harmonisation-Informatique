@@ -25,12 +25,14 @@ int saisieEquation(char pLetter) {
 void calculEquation(int a, int b, int c, int *code, double *x1, double *x2) {
     if (a == 0) {
         if (b == 0) {
-            *code=1;
             if (c == 0) {
                 *code=3;
             } else {
                 *code=0;
             }
+        } else {
+            *code = 1;
+            *x1 = -c / b;
         }
     } else {
         double delta = pow(b, 2) - (4 * a * c);
@@ -67,6 +69,7 @@ void affichageEquation(int pA, int pB, int pC) {
                 break;
         case 3: printf("Il y a une infinité de solutions");
                 break;
+        default;
     }
 }
 

@@ -4,8 +4,8 @@
 //#include "croissant.c"
 //#include "operations.c"
 //#include "equation.c"
-#include "premiers.c"
+#include "pyramide.c"
 
 int main() {
-    calculPremiers(saisiePremiers());
+    pyramide();
 }
