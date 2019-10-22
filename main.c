@@ -1,5 +1,5 @@
-#include "cube.c"
+#include "piCalcul1.c"
 
 int main() {
-    cube(371);
+    piCalcul();
 }
