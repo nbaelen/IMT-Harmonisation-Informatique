@@ -5,10 +5,14 @@
 #include "stdio.h"
 
 void volee() {
-    int loop = 1;
+    int input;
+    int max;
 
-    while (loop) {
+    while (1) {
         printf("Entrer un entier (-1 pour terminer) : ");
-        scanf()
+        scanf("%d", &input);
+        if (input == -1) break;
+        if (input > max) max = input;
     }
+    printf("Le plus grand nombres est : %d",max);
 }
