@@ -3,17 +3,21 @@
 //
 
 #include "stdio.h"
+#include "stdlib.h"
 #include "math.h"
+#include "time.h"
 
-void piCalcul1() {
+void piCalcul2() {
     int precision = 1000;
     int inside = 0, outside = 0;
+    int random1, random2;
+    srand(time(NULL));
     for (int i = 0; i < precision; i++) {
-        for (int j = 0; j < precision; ++j) {
-            double module = sqrt(pow(i, 2) + pow(j, 2));
-            if (module < precision) inside++;
-            else outside++;
-        }
+        random1 = rand() % precision;
+        random2 = rand() % precision;
+        double module = sqrt(pow(random1, 2) + pow(random2, 2));
+        if (module < precision) inside++;
+        else outside++;
     }
     printf("Intérieur : %d, Extérieur : %d, Total : %d\n", inside, outside, inside + outside);
     double pi = ((double) inside) / ((double) inside + (double) outside);
