@@ -1,5 +1,5 @@
-#include "piCalcul2.c"
+#include "pyramide.c"
 
 int main() {
-    piCalcul2();
+    pyramide();
 }

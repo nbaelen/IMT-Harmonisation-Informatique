@@ -12,23 +12,11 @@ void pyramide() {
     while (i < size) {
 
         //espaces de début
-        for (int k = 0; k < size - i; ++k) {
-            printf("  ");
-        }
-
+        for (int k = 0; k < size - i; ++k) printf("  ");
         //ligne croissante
-        j = 1;
-        while (j != i) {
-            printf("%d ", j);
-            j++;
-        }
-
+        for (int k = 1; k < i; k++) printf("%d ", k);
         //ligne décroissante
-        j = i;
-        while (j != 0) {
-            printf("%d ", j);
-            j--;
-        }
+        for (int k = i; k > 0; k--) printf("%d ", k);
 
         //retour chariot
         printf("\n");

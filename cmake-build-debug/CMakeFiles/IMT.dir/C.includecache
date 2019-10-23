@@ -7,16 +7,10 @@
 #IncludeRegexTransform: 
 
 /Users/baelen/Desktop/IMT/main.c
-piCalcul2.c
-/Users/baelen/Desktop/IMT/piCalcul2.c
+pyramide.c
+/Users/baelen/Desktop/IMT/pyramide.c
 
-/Users/baelen/Desktop/IMT/piCalcul2.c
+/Users/baelen/Desktop/IMT/pyramide.c
 stdio.h
 /Users/baelen/Desktop/IMT/stdio.h
-stdlib.h
-/Users/baelen/Desktop/IMT/stdlib.h
-math.h
-/Users/baelen/Desktop/IMT/math.h
-time.h
-/Users/baelen/Desktop/IMT/time.h
 
