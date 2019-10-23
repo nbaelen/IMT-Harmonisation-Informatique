@@ -1,5 +1,5 @@
-#include "pyramide.c"
+#include "pascal.c"
 
 int main() {
-    pyramide();
+    pascal();
 }
