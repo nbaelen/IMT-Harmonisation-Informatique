@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/baelen/Desktop/IMT/main.c
-pascal.c
-/Users/baelen/Desktop/IMT/pascal.c
-
-/Users/baelen/Desktop/IMT/pascal.c
+/Users/baelen/Desktop/IMT/magique.c
 stdio.h
 /Users/baelen/Desktop/IMT/stdio.h
+
+/Users/baelen/Desktop/IMT/main.c
+magique.c
+/Users/baelen/Desktop/IMT/magique.c
 

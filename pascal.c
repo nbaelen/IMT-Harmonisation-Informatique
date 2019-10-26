@@ -12,7 +12,7 @@ void pascal() {
     ligne[0] = 1;
 
     for (int k = 0; k < 7; ++k) {
-        for (i = 0; i < MAX; i++) if (ligne[i] != 0) printf("%d ", ligne[i]);
+        for (i = 0; i < MAX; ++i) if (ligne[i] != 0) printf("%d ", ligne[i]);
         ligne[0] = 1;
         for (i = MAX; i > 0; i--) ligne[i] += ligne[i - 1];
         printf("\n");

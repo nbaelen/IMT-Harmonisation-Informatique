@@ -1,5 +1,5 @@
-#include "pascal.c"
+#include "magique.c"
 
 int main() {
-    pascal();
+    magique();
 }
